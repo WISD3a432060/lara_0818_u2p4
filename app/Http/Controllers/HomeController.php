@@ -11,7 +11,7 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
-classHomeControllerextendsController
+class HomeController extends Controller
 {
 public function index()
 {
